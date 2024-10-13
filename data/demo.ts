@@ -5,65 +5,54 @@ export const page: Page = {
   theme: "light",
   header: {
     brand: {
-      title: "Pagen",
+      title: "PriceListTemplate",
       avatar: {
         src: "/imgs/logo.png",
-        title: "Pagen",
+        title: "PriceListTemplate",
       },
       url: "/",
     },
     nav: {
       items: [
-        {
-          title: "Pricing",
-          url: "https://pagen.so/pricing",
-          target: "_blank",
-        },
-        {
-          title: "Generators",
-          url: "https://pagen.so/landing-page-generator",
-          target: "_blank",
-        },
-        {
-          title: "Showcases",
-          url: "https://pagen.so/showcases",
-          target: "_blank",
-        },
-        {
-          title: "Templates",
-          url: "https://pagen.so/templates",
-          target: "_blank",
-        },
+        // {
+        //   title: "Pricing",
+        //   url: "https://PriceListTemplate.so/pricing",
+        //   target: "_blank",
+        // },
+        // {
+        //   title: "Templates",
+        //   url: "https://PriceListTemplate.so/price-list-template",
+        //   target: "_blank",
+        // },
+        // {
+        //   title: "Showcases",
+        //   url: "https://PriceListTemplate.so/showcases",
+        //   target: "_blank",
+        // },
       ],
     },
     buttons: [
       {
         title: "Sign In",
-        url: "https://pagen.so/api/auth/signin?callbackUrl=%2Flanding-page-generator",
+        url: "https://PriceListTemplate.so/api/auth/signin?callbackUrl=%2Fprice-list-template",
         target: "_blank",
       },
     ],
   },
   hero: {
-    title: "Create Landing Page with AI Power",
+    title: "Create Your Price List with AI Power",
     description:
-      "Design and launch high-converting landing pages with ease using Pagen AI. Ship Fast with your ideas.",
+      "Design and launch high-converting price lists with ease using PriceListTemplate AI. Ship Fast with your ideas.",
     image: {
-      src: "/imgs/hero.png",
+      src: "/imgs/pet.png",
     },
     image_position: "right",
     text_align: "left",
     buttons: [
       {
         title: "Start for free",
-        url: "https://pagen.so/landing-page-generator",
+        // url: "https://PriceListTemplate.so/price-list-template",
         target: "_blank",
-      },
-      {
-        title: "Vote on ProductHunt",
-        url: "https://www.producthunt.com/posts/pagen",
-        target: "_blank",
-        theme: "outline",
       },
     ],
     show_happy_users: true,
@@ -73,46 +62,46 @@ export const page: Page = {
     items: [
       {
         name: "what",
-        title: "What is Pagen",
+        title: "What is PriceListTemplate",
         description:
-          "Pagen is an AI landing page generator that simplifies the process of creating effective landing pages. With its intuitive interface and smart algorithms, you can generate pages that convert visitors into customers.",
+          "PriceListTemplate is an AI price list generator that simplifies the process of creating effective price lists. With its intuitive interface and smart algorithms, you can generate lists that convert visitors into customers.",
         image: {
-          src: "/imgs/section1.png",
+          src: "/imgs/bar.png",
         },
         image_position: "left",
         text_align: "center",
         items: [
           {
-            title: "Landing Page Generator",
+            title: "Price List Generator",
             description:
-              "Pagen can help to generate landing page quickly from your idea",
+              "PriceListTemplate can help to generate price lists quickly from your idea",
           },
           {
-            title: "Page Content Generator",
+            title: "List Content Generator",
             description:
-              "Pagen can help to Generate high-quality page content with AI",
+              "PriceListTemplate can help to generate high-quality list content with AI",
           },
           {
             title: "Variety Templates",
             description:
-              "Pagen has multiple built-in page templates to make landing page looks great",
+              "PriceListTemplate has multiple built-in price list templates to make your lists look great",
           },
         ],
       },
       {
         name: "why",
-        title: "Why Choose Pagen",
+        title: "Why Choose PriceListTemplate",
         description:
-          "Pagen stands out with its user-friendly design, powerful AI capabilities, and customizable templates that cater to various industries. It saves you time and enhances your marketing efforts.",
+          "PriceListTemplate stands out with its user-friendly design, powerful AI capabilities, and customizable templates that cater to various industries. It saves you time and enhances your marketing efforts.",
         image: {
-          src: "/imgs/section2.png",
+          src: "/imgs/barber-shop.png",
         },
         image_position: "right",
         text_align: "center",
         items: [
           {
             title: "Ship Fast",
-            description: "Create landing page in seconds",
+            description: "Create price lists in seconds",
           },
           {
             title: "Easy to use",
@@ -120,17 +109,17 @@ export const page: Page = {
           },
           {
             title: "AI Powered",
-            description: "Generate high-quality page content with AI",
+            description: "Generate high-quality list content with AI",
           },
         ],
       },
       {
         name: "how",
-        title: "How to Use Pagen",
+        title: "How to Use PriceListTemplate",
         description:
-          "Getting started with Pagen is simple and quick. Follow these steps to create your first landing page:",
+          "Getting started with PriceListTemplate is simple and quick. Follow these steps to create your first price list:",
         image: {
-          src: "/imgs/section3.png",
+          src: "/imgs/snakes.png",
         },
         image_position: "left",
         text_align: "center",
@@ -138,7 +127,7 @@ export const page: Page = {
           {
             title: "1. Describe your Idea",
             description:
-              "Give a product name and a simple description to Pagen Landing Page Genrator.",
+              "Give a product name and a simple description to PriceListTemplate.",
           },
           {
             title: "2. Choose a Template",
@@ -146,15 +135,15 @@ export const page: Page = {
               "Select from a variety of professionally designed templates that suit your needs.",
           },
           {
-            title: "3. Customize Your Page",
+            title: "3. Customize Your List",
             description:
-              "Use our AI tools to personalize your landing page with text, images, and branding.",
+              "Use our AI tools to personalize your price list with text, images, and branding.",
           },
         ],
         buttons: [
           {
-            title: "Read to try 👉",
-            url: "https://pagen.so/landing-page-generator",
+            title: "Ready to try 👉",
+            url: "https://PriceListTemplate.so/price-list-template",
             target: "_blank",
           },
         ],
@@ -162,14 +151,14 @@ export const page: Page = {
     ],
   },
   feature: {
-    title: "Key Features of Pagen",
+    title: "Key Features of PriceListTemplate",
     description:
-      "Explore the powerful features that make Pagen the best choice for landing page creation.",
+      "Explore the powerful features that make PriceListTemplate the best choice for price list creation.",
     items: [
       {
         title: "AI-Powered Design",
         description:
-          "Harness the power of AI to automatically generate beautiful and responsive landing page designs tailored to your brand and target audience.",
+          "Harness the power of AI to automatically generate beautiful and responsive price list designs tailored to your brand and target audience.",
         avatar: {
           src: "/imgs/icons/1.svg",
         },
@@ -183,9 +172,9 @@ export const page: Page = {
         },
       },
       {
-        title: "SEO Optimization",
+        title: "Quick Generation",
         description:
-          "Built-in SEO tools to help your landing pages rank higher in search engines and attract more visitors.",
+          "Leverage AI technology to quickly generate professional price lists, saving you time and enhancing efficiency.",
         avatar: {
           src: "/imgs/icons/3.svg",
         },
@@ -193,7 +182,7 @@ export const page: Page = {
       {
         title: "Analytics Integration",
         description:
-          "Track the performance of your landing pages with integrated analytics tools to optimize your campaigns.",
+          "Track the performance of your price lists with integrated analytics tools to optimize your campaigns.",
         avatar: {
           src: "/imgs/icons/4.svg",
         },
@@ -201,7 +190,7 @@ export const page: Page = {
       {
         title: "Mobile Responsiveness",
         description:
-          "All landing pages created with Pagen are fully responsive, ensuring a seamless experience on any device.",
+          "All price lists created with PriceListTemplate are fully responsive, ensuring a seamless experience on any device.",
         avatar: {
           src: "/imgs/icons/5.svg",
         },
@@ -209,7 +198,7 @@ export const page: Page = {
       {
         title: "User-Friendly Interface",
         description:
-          "An intuitive drag-and-drop interface that makes it easy for anyone to create stunning landing pages without any coding skills.",
+          "An intuitive drag-and-drop interface that makes it easy for anyone to create stunning price lists without any coding skills.",
         avatar: {
           src: "/imgs/icons/6.svg",
         },
@@ -217,26 +206,26 @@ export const page: Page = {
     ],
   },
   cta: {
-    title: "Can't wait to use Pagen?",
+    title: "Can't wait to use PriceListTemplate?",
     description: "Just start from here, make your idea to be seen",
     buttons: [
       {
         title: "Try Now",
-        url: "https://pagen.so/landing-page-generator",
+        url: "https://PriceListTemplate.so/price-list-template",
         target: "_blank",
       },
     ],
   },
   testimonial: {
-    title: "What Users Say About Pagen",
+    title: "What Users Say About PriceListTemplate",
     description:
-      "Hear from our satisfied users who have transformed their landing page creation process.",
+      "Hear from our satisfied users who have transformed their price list creation process.",
     items: [
       {
         name: "Mike Jordan",
         title: "Full-stack Developer",
         description:
-          "I love this tool so much, it's awesome! Pagen has made my landing page creation process so much easier.",
+          "I love this tool so much, it's awesome! PriceListTemplate has made my price list creation process so much easier.",
         avatar: {
           src: "/imgs/user/1.png",
         },
@@ -245,7 +234,7 @@ export const page: Page = {
         name: "Sarah Lee",
         title: "Marketing Manager",
         description:
-          "Pagen's AI technology is a game changer. I can create landing pages in minutes!",
+          "PriceListTemplate's AI technology is a game changer. I can create price lists in minutes!",
         avatar: {
           src: "/imgs/user/2.png",
         },
@@ -254,7 +243,7 @@ export const page: Page = {
         name: "Tom Smith",
         title: "Entrepreneur",
         description:
-          "The templates are beautiful and customizable. I highly recommend Pagen!",
+          "The templates are beautiful and customizable. I highly recommend PriceListTemplate!",
         avatar: {
           src: "/imgs/user/3.png",
         },
@@ -263,7 +252,7 @@ export const page: Page = {
         name: "Emily Davis",
         title: "Content Creator",
         description:
-          "Pagen has helped me increase my conversion rates significantly. It's a must-have tool!",
+          "PriceListTemplate has helped me increase my conversion rates significantly. It's a must-have tool!",
         avatar: {
           src: "/imgs/user/4.png",
         },
@@ -272,7 +261,7 @@ export const page: Page = {
         name: "John Doe",
         title: "Business Owner",
         description:
-          "I was able to create a professional landing page without any design skills. Thank you, Pagen!",
+          "I was able to create a professional price list without any design skills. Thank you, PriceListTemplate!",
         avatar: {
           src: "/imgs/user/5.png",
         },
@@ -281,7 +270,7 @@ export const page: Page = {
         name: "Lisa White",
         title: "Freelancer",
         description:
-          "The user interface is so easy to navigate. I love using Pagen for my projects!",
+          "The user interface is so easy to navigate. I love using PriceListTemplate for my projects!",
         avatar: {
           src: "/imgs/user/6.png",
         },
@@ -289,64 +278,64 @@ export const page: Page = {
     ],
   },
   faq: {
-    title: "Frequently Asked Questions About Pagen",
-    description: "Find answers to common questions about using Pagen.",
+    title: "Frequently Asked Questions About PriceListTemplate",
+    description: "Find answers to common questions about using PriceListTemplate.",
     items: [
       {
-        title: "How many pages can I generate using Pagen?",
+        title: "How many lists can I generate using PriceListTemplate?",
         description:
-          "You can generate 3 pages as default, get more credits for page generation when you upgrade to Pro.",
+          "You can generate 3 lists as default, get more credits for list generation when you upgrade to Pro.",
       },
       {
         title: "Is there a free trial available?",
         description:
-          "Yes, Pagen offers a free trial so you can explore its features before committing.",
+          "Yes, PriceListTemplate offers a free trial so you can explore its features before committing.",
       },
       {
-        title: "Can I integrate Pagen with other tools?",
+        title: "Can I integrate PriceListTemplate with other tools?",
         description:
-          "Absolutely! Pagen integrates seamlessly with various marketing and analytics tools.",
+          "Absolutely! PriceListTemplate integrates seamlessly with various marketing and analytics tools.",
       },
       {
-        title: "What types of businesses can benefit from Pagen?",
+        title: "What types of businesses can benefit from PriceListTemplate?",
         description:
-          "Pagen is perfect for marketers, startups, e-commerce businesses, and anyone looking to create effective landing pages.",
+          "PriceListTemplate is perfect for marketers, startups, e-commerce businesses, and anyone looking to create effective price lists.",
       },
       {
-        title: "Do I need coding skills to use Pagen?",
+        title: "Do I need coding skills to use PriceListTemplate?",
         description:
-          "No coding skills are required! Pagen is designed for users of all skill levels.",
+          "No coding skills are required! PriceListTemplate is designed for users of all skill levels.",
       },
       {
         title: "What support options are available?",
         description:
-          "Pagen offers customer support via email and a comprehensive knowledge base for self-help.",
+          "PriceListTemplate offers customer support via email and a comprehensive knowledge base for self-help.",
       },
     ],
   },
   footer: {
     brand: {
-      title: "Pagen",
+      title: "PriceListTemplate",
       description:
-        "Pagen is a page generator powered by AI, it's designed to help businesses and marketers effortlessly create high-converting landing pages that drive results.",
+        "PriceListTemplate is a price list generator powered by AI, it's designed to help businesses and marketers effortlessly create high-converting price lists that drive results.",
       avatar: {
         src: "/imgs/logo.png",
-        title: "Pagen",
+        title: "PriceListTemplate",
       },
-      url: "https://pagen.so",
+      url: "https://PriceListTemplate.so",
     },
     badge_disabled: false,
-    copyright: "© 2024 • Pagen All rights reserved.",
+    copyright: "© 2024 • PriceListTemplate All rights reserved.",
     social: {
       items: [
         {
           title: "Twitter",
-          url: "https://x.com/aipagen",
+          url: "https://x.com/aiPriceListTemplate",
           target: "_blank",
         },
         {
           title: "ProductHunt",
-          url: "https://www.producthunt.com/posts/pagen",
+          url: "https://www.producthunt.com/posts/PriceListTemplate",
           target: "_blank",
         },
         {
@@ -361,7 +350,7 @@ export const page: Page = {
         },
         {
           title: "Email",
-          url: "mailto:support@pagen.so",
+          url: "mailto:support@PriceListTemplate.so",
           target: "_self",
         },
       ],
@@ -372,8 +361,8 @@ export const page: Page = {
           title: "Products",
           children: [
             {
-              title: "Landing Page Generator",
-              url: "https://pagen.so/landing-page-generator",
+              title: "Price List Generator",
+              url: "https://PriceListTemplate.so/price-list-template",
               target: "_blank",
             },
           ],
